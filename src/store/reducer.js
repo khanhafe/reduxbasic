@@ -2,7 +2,8 @@ const initialState = {
   posts: [],
   loginModal: {
     open: false
-  }
+  },
+  mydata: "test data"
 };
 
 const reducer = (state = initialState, action) => {
